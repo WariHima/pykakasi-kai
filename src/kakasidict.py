@@ -178,6 +178,8 @@ class Genkanwadict:
             os.path.join(srcdir, "unidict_noun.utf8"),
             os.path.join(srcdir, "unidict_adj.utf8"),
             os.path.join(srcdir, "mozcdic-ut.utf8"),
+            os.path.join(srcdir, "mzime-name.utf8"),
+            os.path.join(srcdir, "mzime-basic.utf8")
         ]
         dst = os.path.join(dstdir, "kanwadict4.db")
         if os.path.exists(dst):
